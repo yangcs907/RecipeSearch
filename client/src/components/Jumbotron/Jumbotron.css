@@ -1,0 +1,22 @@
+.jumbotron {
+  min-height: 300px;
+  padding-top: 75px;
+  background: rgba(0,0,0,0.2);
+  color: white;
+}
+
+.text-center {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+#Headline {
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+}
+
+.Underline {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}

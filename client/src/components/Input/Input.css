@@ -1,0 +1,14 @@
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  font-family: arial;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  color: white;
+}

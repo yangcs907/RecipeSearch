@@ -1,0 +1,9 @@
+nav.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: white;
+}
