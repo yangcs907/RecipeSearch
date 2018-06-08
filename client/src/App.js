@@ -82,6 +82,11 @@ class App extends Component {
             </Col>
           </Row>
         </Container>
+
+        <footer className="footer">
+          <p>&copy; {new Date().getFullYear()} Chris Yang</p>
+        </footer>
+
       </div>
     );
   }
