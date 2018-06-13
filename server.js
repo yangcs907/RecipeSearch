@@ -6,7 +6,7 @@ const app = express();
 const apiRoutes = require("./routes/apiRoutes");
 
 // Serve up static assets
-app.use(express.static("client/public"));
+app.use(express.static("client/build"));
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -20,7 +20,7 @@ app.use("/api", apiRoutes);
 // Send every request to the React app
 // Define any API routes before this runs
 app.get("*", function(req, res) {
-  res.sendFile(path.join(__dirname, "./client/public/index.html"));
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
 app.listen(PORT, function() {
