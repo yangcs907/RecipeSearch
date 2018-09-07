@@ -20,3 +20,9 @@
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
 }
+
+@media only screen and (max-width:500px) {
+  .jumbotron {
+    background: rgba(0,0,0,0);
+  }
+}
